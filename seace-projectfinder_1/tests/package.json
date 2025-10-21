@@ -1,0 +1,19 @@
+{
+  "name": "seace-projectfinder-tests",
+  "version": "1.0.0",
+  "description": "Tests E2E para SEACE ProjectFinder usando Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "test:api": "playwright test --grep='API'",
+    "test:frontend": "playwright test --grep='Frontend'",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "axios": "^1.6.2"
+  },
+  "dependencies": {}
+}
